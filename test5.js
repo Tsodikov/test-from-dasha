@@ -229,6 +229,4 @@ function generateDataFromSchema(schema, options = {}) {
   return generateRandomValueFromSchema(schema);
 }
 
-const data = generateDataFromSchema(schema, { maxArrayLength: 10, maxNumberValue: 1000 });
-
 console.log(generateDataFromSchema(schema, { maxArrayLength: 10, maxNumberValue: 1000 }));
